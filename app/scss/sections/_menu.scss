@@ -1,0 +1,86 @@
+.main-menu {
+	background-color: #252525;
+	background-image: url(../img/bg/menu_bg.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	padding-top: 32px;
+	padding-bottom: 25px;
+}
+.main-menu__home {
+	&:hover, &:active, &:focus {
+		@include scaled();
+	}
+	margin-left: 5px;
+	@media(min-width: 600px) {
+		margin-left: 57px;
+	}
+	@media(min-width: 640px) {
+		margin-left: 75px;
+	}
+	@media(min-width: 1500px) {
+		margin-left: 0px;
+		margin-right: 45px;
+	}
+}
+.main-menu__list {
+	padding: 0;
+	margin: 0;
+}
+.main-menu__list__item {
+	display: block;
+	font-size: 22px;
+	line-height: 43.5px;
+	text-align: center;
+	border-bottom: 1px solid white;
+	opacity: .7;
+	&:hover, &:active, &:focus {
+		border-bottom: 1px dashed white;
+		opacity: 1;
+	}
+	&:last-child {
+		border-bottom: 0;
+	}
+	@media(min-width: 1500px) {
+		opacity: 1;
+		border-bottom: 0;
+		text-align: left;
+		display: inline-block;
+		margin-bottom: 0;
+		margin-right: 45px;
+		&:last-child {
+			margin-right: 0;
+		}
+		&:hover, &:active, &:focus {
+			border-bottom: 0;
+		}
+	}
+}
+.main-menu__list__item__link {
+	color: #bbbcbe;
+	text-transform: uppercase;
+	font-weight: bold;
+	&:hover, &:active, &:focus {
+		text-decoration: none;
+		color: white;
+	}
+}
+.main-menu__logo {
+	width: 211px;
+	height: 39px;
+	
+	@media(min-width: 600px) {
+		&:hover, &:active, &:focus {
+			@include scaled();
+		}
+	}
+	@media(min-width: 1500px) {
+		width: 251px;
+		height: 45px;
+	}
+}
+
+.mobile-menu {
+	background-color: #252525;
+}

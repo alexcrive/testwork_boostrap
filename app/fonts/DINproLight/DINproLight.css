@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'DIN Pro';
+    src: url('DINPro-Light.woff2') format('woff2'),
+        url('DINPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+

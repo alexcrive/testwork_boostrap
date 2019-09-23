@@ -1,0 +1,120 @@
+.content {
+	background-color: #dbdde4;
+	background-image: url("../img/bg/content_bg.png");
+	background-position: center;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 47px;
+	padding-bottom: 47px;
+	@media(min-width: 1000px) {
+		padding-top: 40px;
+		padding-bottom: 35px;
+	}
+	@media(min-width: 1500px) {
+		padding-top: 47px;
+		padding-bottom: 68px;
+	}
+}
+.content__slogan {
+	font-weight: 300;
+	margin-bottom: 40px;
+	@media(min-width: 600px) {
+		margin-bottom: 60px;
+	}
+	@media(min-width: 1000px) {
+		margin-bottom: 55px;
+	}
+
+}
+.content__slogan__title {
+	text-align: center;
+	font-size: 36px;
+	line-height: 40px;
+	margin-bottom: 12px;
+	@media(min-width: 600px) {
+		font-size: 48px;
+		line-height: 30px;
+	}
+	@media(min-width: 1000px) {
+		font-size: 40px;
+	}
+	@media(min-width: 1500px) {
+		font-size: 48px;
+	}
+}
+.content__slogan__desc {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.content__card {
+	margin-bottom: 30px;
+	@media(min-width: 1000px) {
+		margin-bottom: 40px;
+	}
+	@media(min-width: 1500px) {
+		margin-bottom: 0;
+	} 
+}
+.content__card--last-mb {
+	margin-bottom: 0;
+}
+.content__card__icon {
+	text-decoration: none;
+	min-width: 120px;
+	min-height: 120px;
+	max-width: 130px;
+	max-height: 130px;
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	@media(min-width: 600px) {
+		min-width: 149px;
+		min-height: 149px;
+	}
+	@media(min-width: 1500px) {
+		margin-bottom: 47px;
+	}
+}
+
+.content__card__text {
+	font-weight: 300;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 30px;
+	margin-left: 16px;
+	max-width: 250px;
+	@media(min-width: 600px) {
+		-ms-word-wrap: normal;
+		    word-wrap: normal;
+		width: 260px;
+		font-size: 29px;
+		line-height: 40px;	
+	}
+	@media(min-width: 1000px) {
+		width: 200px;
+		font-size: 20px;
+		line-height: 25px;
+		margin-left: 20px;
+	}
+	@media(min-width: 1500px) {
+		width: auto;
+		text-align: center;
+		margin-left: 0;
+		font-size: 23px;
+		line-height: 30px;
+	}
+}
+/* @media(min-width: 600px) {
+		margin-left: 57px;
+	}
+	@media(min-width: 1000px) {
+		margin-left: 75px;
+	}
+	@media(min-width: 1500px) {
+		margin-left: 0px;
+		margin-right: 45px;
+	} */
