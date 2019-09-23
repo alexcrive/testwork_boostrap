@@ -658,7 +658,7 @@ template {
 }
 
 .header__social__item:hover, .header__social__item:active, .header__social__item:focus {
-  border: 1px solid white;
+  border: 2px solid white;
   text-decoration: none;
 }
 
